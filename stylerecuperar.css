@@ -1,0 +1,54 @@
+body{
+    background-image: url('background/background.png');
+    background-size: cover;
+    color: white;
+    font-family: Sans-Serif;
+  }
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 25px;
+    border-radius: 0.8rem;
+    background-color: rgb(0,0,0,0.4);
+  }
+  .wrapper svg{
+    width: 100px;
+  }
+  .wrapper h1{
+    font-size: 30px;
+  }
+  .wrapper h3{
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .wrapper .field {
+    height: 60px;
+  }
+  .wrapper input[ type = text ]{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    padding-left: 35px;
+  }
+  .wrapper span{
+    position: absolute;
+    color: black;
+    padding: 4px;
+  }
+  .wrapper button {
+    width: 290px;
+    height: 35px;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: #007dff;
+  }
+  .link1 a{
+    text-decoration: none;
+    color: #007dff;
+  }

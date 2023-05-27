@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #302f2f;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        width: 100%;
+        padding: 20px;
+        border: 7px solid #030303;
+        border-radius: 5px;
+        background-color: #f7f7f7;
+        
+      }
+
+      form label {
+        margin: 10px 0;
+      }
+
+      form input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      form button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      form button#btn-registrarse {
+        background-color: #2196F3;
+      }
+
+      button#btn-regresar {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ccc;
+        color: #000;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" required>
+
+      <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+      <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+      <label for="doc-identidad">Documento de identidad:</label>
+      <input type="text" id="doc-identidad" name="doc-identidad" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="correo-electronico">Correo electrónico:</label>
+      <input type="email" id="correo-electronico" name="correo-electronico" required>
+
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" id="contraseña" name="contraseña" required>
+
+      <button id="registerBtn" onclick="registerUser()">Registrarse</button>
+      <button id="btn-regresar" onclick="window.location.href='login.html'">Regresar</button>
+    </form>
+    <script src="apps.js"></script>
+  </body>
+</html>
