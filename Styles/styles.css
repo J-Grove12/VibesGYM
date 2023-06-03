@@ -5,7 +5,7 @@
     padding: 0;
   }
   body {
-    background-image: url("images/pesas.jpg");
+    background-image: url("/VibesGYM/images/pesas.jpg");
     background-size: cover;
     background-position: center;
   }
